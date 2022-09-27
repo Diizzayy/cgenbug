@@ -1,0 +1,20 @@
+{
+  "name": "cgenbug",
+  "version": "1.0.0",
+  "main": "dist/index.mjs",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "unbuild --stub",
+    "start": "node dist/index.mjs"
+  },
+  "dependencies": {
+    "@graphql-codegen/cli": "^2.13.0",
+    "@graphql-codegen/typescript": "^2.7.3",
+    "@graphql-codegen/typescript-operations": "^2.5.3",
+    "graphql": "^16.6.0"
+  },
+  "devDependencies": {
+    "unbuild": "^0.8.11"
+  }
+}
